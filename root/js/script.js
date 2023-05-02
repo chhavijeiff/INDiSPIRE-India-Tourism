@@ -13,5 +13,5 @@ setInterval(() => {
 slideCards = document.querySelectorAll(".card")
 setInterval(() => {
     document.querySelector(".activecard").classList.remove("activecard")
-    slideCards[Math.floor(Math.random()*8)].classList.add("activecard")
+    slideCards[Math.floor(Math.random()*(slideCards.length))].classList.add("activecard")
 }, 3000);
