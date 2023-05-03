@@ -166,3 +166,11 @@ main section .text{
     padding: 1.2rem;
     margin: 1.5rem;
 }
+/* Footer */
+footer{
+    height: 60svh;
+    background-color: #8064646b;
+    margin: 30px;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
