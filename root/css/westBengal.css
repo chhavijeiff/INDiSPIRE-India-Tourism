@@ -166,6 +166,10 @@ main section .text{
     padding: 1.2rem;
     margin: 1.5rem;
 }
+/* Aside style change */
+.nav-item{
+    padding: 5px !important;
+}
 /* Footer */
 footer{
     height: 60svh;
