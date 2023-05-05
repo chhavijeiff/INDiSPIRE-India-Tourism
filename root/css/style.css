@@ -11,28 +11,30 @@ main{
 nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #0B0C10;
-    position: -webkit-sticky;
+    /* position: -webkit-sticky; */
     position: sticky;
     top: 0;
     z-index: 1;
     box-shadow: 0px 5px 5px #66FCF1;
-    color: #66FCF1; 
+    color: #ffffff; 
+    width: 100%;
 }
 .menu:hover{
-    background-color: rgb(221, 221, 165);
-    border-top-left-radius: 50%;
-    border-bottom-right-radius: 50%;
+    background-color: #CF6679;
+    /* border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%; */
+    border-radius: 5px;
 }
 nav ul{
     display: flex;
     font-size: 1.8rem;
-    width: 100%;
+    /* width: 100%; */
     border-radius: 5px;    
 }
 li{
     /* margin: 1.5rem; */
-    margin: 5px;
-    padding: 1.1rem;
+    margin: 10px;
+    padding: 8px;
     cursor: pointer;
     position: relative;  
     font-weight: 500; 
@@ -45,39 +47,44 @@ li{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgb(221, 221, 165);
+    /* background-color: #CF6679; */
     z-index: -1;
     transform: scaleX(0);
     transition: transform 0.3s ease-in;
+    margin: 0 10px;
 }
 .dropbtn li:hover::before{
-    background-color: rgb(221, 221, 165);
-    border-bottom-left-radius: 50%;
-    border-top-right-radius: 50%;
+    background-color: #CF6679;
+    /* border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    border-radius: 10px;
     transform: scaleX(1);
+    margin: 0 10px;
 }
 nav ul li a{
     text-decoration: none;
-    color: #66FCF1; 
+    color: #efefef; 
 }
 .dropbtn{
     position: relative;
+    margin: 10px;
 }
 .dropbtn:hover .dropdown-content{    
     display: block;
 }
 nav ul li ul.dropdown-content{
+    margin-bottom: 10px;
     display: none;
     position: absolute;
     top: calc(width(nav)+20px);
     transform: translateX(-50%);
-    background-color: #1f2833a8;
+    background-color: #1f2833;
     text-align: center;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     animation: growDown 300ms ease-in-out forwards;
-    transform-origin: top center;
+    transform-origin: top;
 }
 
 @keyframes growDown {
@@ -92,8 +99,8 @@ nav ul li ul.dropdown-content{
     }
 }
 .dropdown-content li{
-    margin: 0 auto;
-    padding: 10px;
+    margin: 1px auto;
+    padding: 1px 10px;
 }
 
 /* AUTO SLIDER */
@@ -204,6 +211,7 @@ main .destination{
     margin-left: 10px;
     padding: 15px;
     box-shadow: 0px 0px 8px 2px #66FCF1;
+    overflow: hidden;
 }
 .destination .slides .card:not(.activecard){
     display: none;
