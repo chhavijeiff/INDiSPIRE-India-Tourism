@@ -1,6 +1,6 @@
 // Auto Slide Images
 const slideImages = document.querySelectorAll('.slideimg');
-let count = 0
+let count = 1
 setInterval(() => {
     document.querySelector(".active").style.animation = "next1 1s ease-in forwards";
     document.querySelector(".active").classList.remove("active");
