@@ -1,2 +1,0 @@
-Contains CSS files:
-link using "./css/filename.css"

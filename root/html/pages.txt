@@ -1,3 +1,0 @@
-contains web pages other thsan home page
-link using "./html/page_name.html" with the index.html
-and "./page_name.htm" with pages in the same folder
