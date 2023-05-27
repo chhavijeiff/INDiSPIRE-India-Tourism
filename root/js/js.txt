@@ -1,2 +1,0 @@
-contains Javascript files
-link using "./js/file_name.js"
