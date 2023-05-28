@@ -1,0 +1,45 @@
+.hotelContainer{
+    width: 100%;
+}
+.hotel{
+    /* width:500px; */
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.hotel img{
+    height: 90px;
+    width: 90px;
+}
+.hotel .text{
+    align-self: flex-start;
+    flex-grow: 1;
+    text-align: center;
+}
+.testimonial-box:hover{
+    transform: translateY(-10px);
+    transition: all ease 0.3s;
+}
+button {
+    animation: 1.5s ease infinite alternate running shimmer;
+    background: linear-gradient(90deg, #7dd8ff 0%, #64E3FF 30%, #9192FF 85%);
+    background-size: 200% 100%;
+    border: none;
+    border-radius: 16px;
+    box-shadow: -2px -2px 10px rgba(255, 227, 126, 0.5), 2px 2px 10px rgba(144, 148, 255, 0.5);
+    color: #170F1E;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 670;
+    line-height: 24px;
+    overflow: hidden;
+    padding: 12px 24px;
+    position: relative;
+    text-decoration: none;
+    transition: 0.2s;
+}
