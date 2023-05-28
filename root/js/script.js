@@ -15,3 +15,5 @@ setInterval(() => {
     document.querySelector(".activecard").classList.remove("activecard")
     slideCards[Math.floor(Math.random()*(slideCards.length))].classList.add("activecard")
 }, 3000);
+
+const navli = document.querySelectorAll(".menu")

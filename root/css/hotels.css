@@ -1,45 +1,45 @@
 .hotelContainer{
     width: 100%;
+    padding: 20px;
 }
 .hotel{
-    /* width:500px; */
+    width:70%;
     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
     background-color: #ffffff;
     padding: 20px;
-    margin: 15px;
+    margin: 15px auto;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    border-radius: 20px;
 }
 .hotel img{
-    height: 90px;
-    width: 90px;
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
 }
 .hotel .text{
-    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     flex-grow: 1;
     text-align: center;
+    position: relative;
 }
 .testimonial-box:hover{
     transform: translateY(-10px);
     transition: all ease 0.3s;
 }
 button {
-    animation: 1.5s ease infinite alternate running shimmer;
-    background: linear-gradient(90deg, #7dd8ff 0%, #64E3FF 30%, #9192FF 85%);
-    background-size: 200% 100%;
-    border: none;
-    border-radius: 16px;
+    width: 20%;
+    text-align: center;
+    background: #0d634f;
+    border: 2px solid #1a7d66;
     box-shadow: -2px -2px 10px rgba(255, 227, 126, 0.5), 2px 2px 10px rgba(144, 148, 255, 0.5);
-    color: #170F1E;
+    color: #f4f8f7;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
     font-weight: 670;
-    line-height: 24px;
-    overflow: hidden;
-    padding: 12px 24px;
-    position: relative;
+    padding: 10px 15px;
     text-decoration: none;
-    transition: 0.2s;
 }
