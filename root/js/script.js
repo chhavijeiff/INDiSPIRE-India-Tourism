@@ -1,12 +1,12 @@
 // Auto Slide Images
 const slideImages = document.querySelectorAll('.slideimg');
-let count = 1
+let count = 0
 setInterval(() => {
     document.querySelector(".active").style.animation = "next1 1s ease-in forwards";
     document.querySelector(".active").classList.remove("active");
+    count = (count+1)%(slideImages.length);
     slideImages[count].setAttribute("class", "active");
     document.querySelector(".active").style.animation = "next2 1s ease-out forwards";
-    count = (count+1)%(slideImages.length);
 }, 3000);
 
 // autoslide cards
