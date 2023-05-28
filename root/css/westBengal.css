@@ -35,7 +35,13 @@ nav{
     color: #ffffff;
     width: 100%;
 }
-
+nav ul li img{
+    height: 50px;
+}
+.side{
+    margin-left: auto;
+    margin-right: 80px;
+}
 .menu:not(:first-child):hover{
     background-color: rgb(38,147,238);
     border-top-left-radius: 50%;
